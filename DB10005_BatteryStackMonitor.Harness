@@ -1,0 +1,2 @@
+Harness=T1,TGND,T2
+SPI=S\S\,SCK,MISO,MOSI
