@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DB10005_BMS.PcbDoc   29-Jun-16  23:43:56
+NCDrill File Report For: DB10005_BMS.PcbDoc   08-Dec-16  16:17:33
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : L1 to L4
@@ -7,17 +7,18 @@ ASCII RoundHoles File : DB10005_BMS.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.25mm (10mil)                                            Round             451       PTH        1184.87mm (46.65inch)
-T2      0.4mm (16mil)                                             Round             242       PTH        860.09mm (33.86inch)
-T3      1mm (39mil)                                               Round             2         PTH        5.00mm (0.20inch)
-T4      1.3mm (51mil)                                             Round             2         PTH        7.15mm (0.28inch)
-T5      1.45mm (57mil)                                            Round             72        PTH        434.94mm (17.12inch)
-T6      2.41mm (95mil)                                            Round             2         PTH        25.32mm (1.00inch)
-T7      0.3mm (12mil)                                             Round             5         NPTH       3.80mm (0.15inch)
-T8      2.6mm (102mil)                                            Round             2         NPTH       27.00mm (1.06inch)
-T9      3.2mm (126mil)                                            Round             4         NPTH       220.00mm (8.66inch)
-T10     5.3mm (209mil)                                            Round             6         NPTH       280.00mm (11.02inch)
+T1      0.25mm (10mil)                                            Round             489       PTH        1352.82mm (53.26inch)
+T2      0.4mm (16mil)                                             Round             172       PTH        713.75mm (28.10inch)
+T3      0.6mm (24mil)                                             Round             76        PTH        165.19mm (6.50inch)
+T4      1mm (39mil)                                               Round             2         PTH        5.00mm (0.20inch)
+T5      1.3mm (51mil)                                             Round             2         PTH        7.15mm (0.28inch)
+T6      1.45mm (57mil)                                            Round             72        PTH        434.94mm (17.12inch)
+T7      2.41mm (95mil)                                            Round             2         PTH        25.32mm (1.00inch)
+T8      0.3mm (12mil)                                             Round             5         NPTH       3.80mm (0.15inch)
+T9      2.6mm (102mil)                                            Round             2         NPTH       27.00mm (1.06inch)
+T10     3.2mm (126mil)                                            Round             4         NPTH       220.00mm (8.66inch)
+T11     5.3mm (209mil)                                            Round             6         NPTH       280.00mm (11.02inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              788
+Totals                                                                              832
 
 Total Processing Time (hh:mm:ss) : 00:00:00
