@@ -28,7 +28,7 @@ There have been two hardware realizations so far, not all design revisions make 
 * V0.4
    * Improved charge diode bypass current carrying capability (in development)
    
-Production data for most recent version can be found [here](Project%20Outputs%20for%20DB10005_DieBieMS). The initial project blog/log can be found [here](http://www.electric-skateboard.builders/t/diy-6s-to-12s-bms-with-can/2639).
+Production data for most recent version can be found [here](Project%20Outputs%20for%20DB10005_DieBieMS). The initial project blog/log can be found [here](http://www.electric-skateboard.builders/t/diy-6s-to-12s-bms-with-can/2639). And the schematic in PDF [here](Project%20Outputs%20for%20DB10005_DieBieMS/DB10005_DieBieMS.PDF).
 
 ### Features
 This BMS is an all in one solution, combined with a lithium battery it is possible to replace an existing lead based battery pack (ideal for upgrading a bulky and heavy electric scooter with a much lighter li-polymer pack). In order to be a plug and play system the BMS carries all power electronics and controller systems to switch the main power path and communicate with external interfaces (displays, buttons or anything else you adapt to it). A small list of features:
@@ -79,10 +79,12 @@ The IC's used with their corresponding functionality:
 # Example usage
 #### Electric skateboard
 Power switching demo (early firmware state):
+
 [![VIDEO01](http://img.youtube.com/vi/5D9kg96CN14/0.jpg)](http://www.youtube.com/watch?v=5D9kg96CN14)
 
 More complete demo:
-[![VIDEO01](http://img.youtube.com/vi/dPrGB-z_9Pw&t/0.jpg)](http://www.youtube.com/watch?v=dPrGB-z_9Pw&t)
+
+[![VIDEO01](http://img.youtube.com/vi/dPrGB-z_9Pw/0.jpg)](http://www.youtube.com/watch?v=dPrGB-z_9Pw)
 
 #### Electric scooter
 No videos available yet.
