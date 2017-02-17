@@ -9,7 +9,7 @@ My personal transportation environment is becoming more and more electrical. All
 
 
 ### Latest hardware release (production files)
-There have been two hardware realisations so far, not all design revisions make it to the real world. Sometimes a version is skipped when hardware errors are fixxed but also significant fuctionality is added:
+There have been two hardware realizations so far, not all design revisions make it to the real world. Sometimes a version is skipped when hardware errors are fixed but also significant functionality is added:
 
 * V0.1 Initial hardware
    This version has a few design flaws:
@@ -17,8 +17,8 @@ There have been two hardware realisations so far, not all design revisions make 
    * Components C37 and the 0R jumper resistor (removed in V0.3) are to close to U1 (LTC6803) making it difficult to assemble.
    * Pre-charge resistor R33 to low (will burn if load capacitance is to high)
    
-* V0.3 Fixxed version of V0.1 with added functionality ( current version)
-   This version has some added functionallity:
+* V0.3 Fixed version of V0.1 with added functionality ( current version)
+   This version has some added functionality:
    * SDCard for logging (to develop a SoC and SoH algorithm)
    * An extra safety feature that disables the charge input and load output when the communication to the LTC6803 is halted.
    * A serial port connector for an external OpenLOG logger (if fast SDCard implementation is not as trivial as I thought).
@@ -26,7 +26,7 @@ There have been two hardware realisations so far, not all design revisions make 
    * An option to add an extra shunt resistor to allow for higher measurable battery current.
    
 * V0.4
-   * Improved charge diode bypass current carrying capabillity (in devellopment)
+   * Improved charge diode bypass current carrying capability (in development)
    
 Production data for most recent version can be found [here](Project%20Outputs%20for%20DB10005_DieBieMS). The initial project blog/log can be found [here](http://www.electric-skateboard.builders/t/diy-6s-to-12s-bms-with-can/2639).
 
@@ -46,30 +46,43 @@ This BMS is an all in one solution, combined with a lithium battery it is possib
 * Compact footprint
 
 ### Electrical specifications
-* Max load current +/- 100A (both directions, theoratically it's 140A but this is still untested).
+* Max load current +/- 100A (both directions, theoretically it's 140A but this is still untested).
 * Max charge current 10A (with diode) or 30A (with diode bypass).
 * Cell voltage range 2.5V to 4.5V
 * Pack voltage 12V to 54V
 
 # Realisation
-Of the many ways to realise an all in one BMS I choose the more simple but maybe more expensive way. Since there is a lot of desired functionallity and the need for a small footprint many features are realised by a complex chip. 
+Out of the many ways to realise an all in one BMS I choose the more simple but maybe more expensive way. Since there is a lot of desired functionality and the need for a small footprint many features are realized by complex chips. 
 
 #### Power-on state management
+There are several ways to enable the BMS and put it into the corresponding operation mode. As of now the following modes of operation are present:
+* Normal operation
 
-#### Cell voltage measurement
+   This mode is triggered by a single pres on the powerbutton, when the button is released the microcontroller keeps the BMS on. A long pres will powerdown the BMS. The LED turns solid on when enabled and turn off when powerdown long buttonpress is detected. 
+* Charging mode
 
-#### Pack current / voltage measurement
+   When the CHARGE+ input is brought >3V above the PACK+ terminal the BMS is booting into charge mode, the microcontroller will check the cell voltages and if desired enable the switch to allow current to flow from CHARGE+ to PACK+. In this mode the microcontroller knows the presence of the charge. If the charger is removed the microcontroller will keep the BMS on for a configurable amount of time to display a status message (show for example the charged amount) followed by powering down.
+* External mode
 
-#### Output voltage measurement
+   When a USB cable is connected or 5V is applied on the CAN connector the BMS will boot into external power mode. Firmware updating trough the hardware bootloader or communication over CAN bus is now possible. The power on enable by CAN functionality allows an externally battery powered telemetry device to enable the BMS and request battery pack data (giving for example daily / weekly / monthly status updates).
 
-#### Main power patch switching
-
-##### Output switching
-
-##### Pre-charging
-
-##### Charger switching
+#### Used technology
+The IC's used with their corresponding functionality:
+* LTC6803-2 -> Battery stack cell voltage monitor.
+* STM32F303 -> Main microcontroller.
+* ISL28022 -> Pack voltage and current measurement.
+* BQ76200 -> Height side FET driver for LOAD+ CHARGE+ and Pre-charge switch driving.
+* LM5165 -> SMPS Buck converter, converting the pack voltage to +3.3V.
+* ISO1050 -> isolated CAN-Bus transceiver.
+* CP2104-F03 -> USB to serial converter for bootloader based firmware updates and debugging.
 
 # Example usage
 #### Electric skateboard
+Power switching demo (early firmware state):
+[![VIDEO01](http://img.youtube.com/vi/5D9kg96CN14/0.jpg)](http://www.youtube.com/watch?v=5D9kg96CN14)
+
+More complete demo:
+[![VIDEO01](http://img.youtube.com/vi/dPrGB-z_9Pw&t/0.jpg)](http://www.youtube.com/watch?v=dPrGB-z_9Pw&t)
+
 #### Electric scooter
+No videos available yet.
