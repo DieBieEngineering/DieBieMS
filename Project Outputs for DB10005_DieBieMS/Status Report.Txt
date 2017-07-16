@@ -1,9 +1,11 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [DB10005_DieBieMS.PrjPcb]
+Output: PNP Single
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [DB10005_BMS.PcbDoc]
+   Generated File[Pick Place for DB10005_BMS.txt]
+   Generated File[Pick Place for DB10005_BMS.csv]
 
 
-Files Generated   : 0
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 02:41:35 On 22-Feb-17
+Finished Output Generation At 21:34:28 On 16-7-2017

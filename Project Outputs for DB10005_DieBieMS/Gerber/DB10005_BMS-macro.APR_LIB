@@ -94,5 +94,5 @@ G04:AMPARAMS|DCode=169|XSize=1.8796mm|YSize=2.2606mm|CornerRadius=0mm|HoleSize=0
 %
 G04:AMPARAMS|DCode=189|XSize=0.5mm|YSize=0.6mm|CornerRadius=0mm|HoleSize=0mm|Usage=FLASHONLY|Rotation=45.000|XOffset=0mm|YOffset=0mm|HoleType=Round|Shape=Rectangle|*
 %AMROTATEDRECTD189*
-4,1,4,0.0354,-0.3889,-0.3889,0.0354,-0.0354,0.3889,0.3889,-0.0354,0.0354,-0.3889,0.0*
+4,1,4,0.0353,-0.3889,-0.3889,0.0353,-0.0353,0.3889,0.3889,-0.0353,0.0353,-0.3889,0.0*
 %
