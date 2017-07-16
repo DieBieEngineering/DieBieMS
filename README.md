@@ -76,6 +76,15 @@ The IC's used with their corresponding functionality:
 * ISO1050 -> isolated CAN-Bus transceiver.
 * CP2104-F03 -> USB to serial converter for bootloader based firmware updates and debugging.
 
+
+![alt text](Binaries/Images/DieBieMSV0_3_01.jpg "DieBieMS V0.3 Overview")
+
+![alt text](Binaries/Images/DieBieMSV0_3_02.jpg "DieBieMS V0.3 BottomView")
+
+![alt text](Binaries/Images/DieBieMSV0_3_03.jpg "DieBieMS V0.3 Balance resistors")
+
+![alt text](Binaries/Images/DieBieMSV0_3_04.jpg "DieBieMS V0.3 Celltap connector")
+
 # Example usage
 #### Electric skateboard
 Power switching demo (early firmware state):
