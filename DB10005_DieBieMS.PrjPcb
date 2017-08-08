@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for DB10005_DieBieMS
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -344,12 +344,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OCWPFKJU
 
+[Document19]
+DocumentPath=DB10005_Wireless.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EQCXJPDX
+
+[Document20]
+DocumentPath=DB10005_Wireless.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=EAEF25F5-BFEF-4CFA-8AEC-E22CB73F1636
 Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
+VariationCount=19
 Variation1=Designator=R39_CELL7|UniqueId=\JAGOFHPB\7PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
 Variation2=Designator=R39_CELL1|UniqueId=\JAGOFHPB\1PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
 Variation3=Designator=R39_CELL2|UniqueId=\JAGOFHPB\2PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
@@ -362,6 +396,13 @@ Variation9=Designator=R39_CELL9|UniqueId=\JAGOFHPB\9PNEHJJTR\OQEEQABB|Kind=1|Alt
 Variation10=Designator=R39_CELL10|UniqueId=\JAGOFHPB\10PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
 Variation11=Designator=R39_CELL11|UniqueId=\JAGOFHPB\11PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
 Variation12=Designator=R39_CELL12|UniqueId=\JAGOFHPB\12PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
+Variation13=Designator=MOD?|UniqueId=\JHHAIHGM\YAQOXQNT|Kind=1|AlternatePart= 
+Variation14=Designator=C?|UniqueId=\JHHAIHGM\IUAVPBII|Kind=1|AlternatePart= 
+Variation15=Designator=L?|UniqueId=\JHHAIHGM\VICPVYKJ|Kind=1|AlternatePart= 
+Variation16=Designator=C?|UniqueId=\JHHAIHGM\UKWYMCHX|Kind=1|AlternatePart= 
+Variation17=Designator=C6|UniqueId=\LNHRQXPS\HMIGNBFB|Kind=1|AlternatePart= 
+Variation18=Designator=J15|UniqueId=\LNHRQXPS\XKLENGYD|Kind=1|AlternatePart= 
+Variation19=Designator=R64|UniqueId=\CAOILPCH\SMHWILWX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -495,7 +536,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for DB10005_DieBieMS
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1451,7 +1492,7 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=0
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
@@ -1654,14 +1695,14 @@ ComponentUpdate32=0
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=AR_Misc.IntLib
-ComponentDesignItemID33=AI-1027-TWT-5V-2-R
-ComponentSymbolReference33=AI-1027-TWT-5V-2-R
-ComponentUpdate33=0
+ComponentDesignItemID33=0466.200NR
+ComponentSymbolReference33=0466.200NR
+ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
 ComponentLibraryIdentifier34=AR_Misc.IntLib
-ComponentDesignItemID34=EVQPLMA15
-ComponentSymbolReference34=EVQPLMA15
+ComponentDesignItemID34=AI-1027-TWT-5V-2-R
+ComponentSymbolReference34=AI-1027-TWT-5V-2-R
 ComponentUpdate34=0
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
@@ -1678,15 +1719,15 @@ ComponentUpdate36=0
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=AR_Misc.IntLib
-ComponentDesignItemID37=MC12CT 004
-ComponentSymbolReference37=MC12CT 004
+ComponentDesignItemID37=PCBFuse_0_2MM
+ComponentSymbolReference37=PCBFuse_0_2MM
 ComponentUpdate37=0
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
-ComponentLibraryIdentifier38=AR_Misc.IntLib
-ComponentDesignItemID38=PCBFuse_0_2MM
-ComponentSymbolReference38=PCBFuse_0_2MM
-ComponentUpdate38=0
+ComponentLibraryIdentifier38=AR_Modules.IntLib
+ComponentDesignItemID38=A1101R09C00GM
+ComponentSymbolReference38=A1101R09C00GM
+ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
 ComponentLibIdentifierKind39=Library Name And Type
 ComponentLibraryIdentifier39=AR_Mosfets.IntLib
@@ -1750,39 +1791,39 @@ ComponentUpdate48=0
 ComponentIsDeviceSheet48=0
 ComponentLibIdentifierKind49=Library Name And Type
 ComponentLibraryIdentifier49=AR_Resistors_SMD.IntLib
-ComponentDesignItemID49=10/2512/2000W/250V
-ComponentSymbolReference49=10/2512/2000W/250V
+ComponentDesignItemID49=100/0603/0063W/50V
+ComponentSymbolReference49=100/0603/0063W/50V
 ComponentUpdate49=0
 ComponentIsDeviceSheet49=0
 ComponentLibIdentifierKind50=Library Name And Type
 ComponentLibraryIdentifier50=AR_Resistors_SMD.IntLib
-ComponentDesignItemID50=100/0603/0063W/50V
-ComponentSymbolReference50=100/0603/0063W/50V
+ComponentDesignItemID50=100/0805/0250W/150V
+ComponentSymbolReference50=100/0805/0250W/150V
 ComponentUpdate50=0
 ComponentIsDeviceSheet50=0
 ComponentLibIdentifierKind51=Library Name And Type
 ComponentLibraryIdentifier51=AR_Resistors_SMD.IntLib
-ComponentDesignItemID51=100/0805/0250W/150V
-ComponentSymbolReference51=100/0805/0250W/150V
+ComponentDesignItemID51=10k/0402/0063W/50V
+ComponentSymbolReference51=10k/0402/0063W/50V
 ComponentUpdate51=0
 ComponentIsDeviceSheet51=0
 ComponentLibIdentifierKind52=Library Name And Type
 ComponentLibraryIdentifier52=AR_Resistors_SMD.IntLib
-ComponentDesignItemID52=10k/0402/0063W/50V
-ComponentSymbolReference52=10k/0402/0063W/50V
+ComponentDesignItemID52=130K/0603/0063W/50V
+ComponentSymbolReference52=130K/0603/0063W/50V
 ComponentUpdate52=0
 ComponentIsDeviceSheet52=0
 ComponentLibIdentifierKind53=Library Name And Type
 ComponentLibraryIdentifier53=AR_Resistors_SMD.IntLib
-ComponentDesignItemID53=130K/0603/0063W/50V
-ComponentSymbolReference53=130K/0603/0063W/50V
+ComponentDesignItemID53=15/0805/0125W/150V
+ComponentSymbolReference53=15/0805/0125W/150V
 ComponentUpdate53=0
 ComponentIsDeviceSheet53=0
 ComponentLibIdentifierKind54=Library Name And Type
 ComponentLibraryIdentifier54=AR_Resistors_SMD.IntLib
-ComponentDesignItemID54=15/0805/0125W/150V
-ComponentSymbolReference54=15/0805/0125W/150V
-ComponentUpdate54=0
+ComponentDesignItemID54=15/2512/2W/250V
+ComponentSymbolReference54=15/2512/2W/250V
+ComponentUpdate54=1
 ComponentIsDeviceSheet54=0
 ComponentLibIdentifierKind55=Library Name And Type
 ComponentLibraryIdentifier55=AR_Resistors_SMD.IntLib
@@ -1816,39 +1857,39 @@ ComponentUpdate59=0
 ComponentIsDeviceSheet59=0
 ComponentLibIdentifierKind60=Library Name And Type
 ComponentLibraryIdentifier60=AR_Resistors_SMD.IntLib
-ComponentDesignItemID60=33/2512/2000W/250V
-ComponentSymbolReference60=33/2512/2000W/250V
+ComponentDesignItemID60=33K/0603/0063W/50V
+ComponentSymbolReference60=33K/0603/0063W/50V
 ComponentUpdate60=0
 ComponentIsDeviceSheet60=0
 ComponentLibIdentifierKind61=Library Name And Type
 ComponentLibraryIdentifier61=AR_Resistors_SMD.IntLib
-ComponentDesignItemID61=33K/0603/0063W/50V
-ComponentSymbolReference61=33K/0603/0063W/50V
+ComponentDesignItemID61=4.75k/0402/0063W/50V
+ComponentSymbolReference61=4.75k/0402/0063W/50V
 ComponentUpdate61=0
 ComponentIsDeviceSheet61=0
 ComponentLibIdentifierKind62=Library Name And Type
 ComponentLibraryIdentifier62=AR_Resistors_SMD.IntLib
-ComponentDesignItemID62=4.75k/0402/0063W/50V
-ComponentSymbolReference62=4.75k/0402/0063W/50V
+ComponentDesignItemID62=4.7M/0805/0250W/150V
+ComponentSymbolReference62=4.7M/0805/0250W/150V
 ComponentUpdate62=0
 ComponentIsDeviceSheet62=0
 ComponentLibIdentifierKind63=Library Name And Type
 ComponentLibraryIdentifier63=AR_Resistors_SMD.IntLib
-ComponentDesignItemID63=4.7M/0805/0250W/150V
-ComponentSymbolReference63=4.7M/0805/0250W/150V
+ComponentDesignItemID63=470/0402/0063W/50V
+ComponentSymbolReference63=470/0402/0063W/50V
 ComponentUpdate63=0
 ComponentIsDeviceSheet63=0
 ComponentLibIdentifierKind64=Library Name And Type
-ComponentLibraryIdentifier64=AR_Resistors_SMD.IntLib
-ComponentDesignItemID64=470/0402/0063W/50V
-ComponentSymbolReference64=470/0402/0063W/50V
+ComponentLibraryIdentifier64=AR_Vreg.IntLib
+ComponentDesignItemID64=LM5165Y
+ComponentSymbolReference64=LM5165Y
 ComponentUpdate64=0
 ComponentIsDeviceSheet64=0
 ComponentLibIdentifierKind65=Library Name And Type
-ComponentLibraryIdentifier65=AR_Vreg.IntLib
-ComponentDesignItemID65=LM5165Y
-ComponentSymbolReference65=LM5165Y
-ComponentUpdate65=0
+ComponentLibraryIdentifier65=DannyLib.IntLib
+ComponentDesignItemID65=NTCS0805E4104JMT
+ComponentSymbolReference65=NTCS0805E4104JMT
+ComponentUpdate65=1
 ComponentIsDeviceSheet65=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1982,31 +2023,31 @@ ModelType9=PCBLIB
 ModelName9=AI-1027-TWT
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=C0402
+ModelName10=AxxLR09_Short
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=C0603
+ModelName11=C0402
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=C-0805
+ModelName12=C0603
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=C-1206
+ModelName13=C-0805
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=D-0805
+ModelName14=C-1206
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=D2-PAK
+ModelName15=D-0805
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=D2PAK7
+ModelName16=D2-PAK
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=D-PAK
+ModelName17=D2PAK7
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=EVQPLM
+ModelName18=D-PAK
 ModelUpdate18=1
 ModelType19=PCBLIB
 ModelName19=F1206
