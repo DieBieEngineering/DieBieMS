@@ -1,0 +1,11 @@
+Output: PNP Single
+Type  : Pick Place
+From  : Variant [Production] of PCB Document [DB10005_BMS.PcbDoc]
+   Generated File[Pick Place for DB10005_BMS(Production).txt]
+   Generated File[Pick Place for DB10005_BMS(Production).csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 22:21:44 On 17-8-2017
