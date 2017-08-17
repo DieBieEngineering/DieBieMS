@@ -406,87 +406,75 @@ Variation19=Designator=R64|UniqueId=\CAOILPCH\SMHWILWX|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for DB10005_DieBieMS\BOM\Bill of Materials-DB10005_DieBieMS.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.G1
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.G2
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GM29
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.REP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Pick Place\Pick Place for DB10005_BMS.csv
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Pick Place\Pick Place for DB10005_BMS.txt
 DItemRevisionGUID=
 
 [Configuration1]
