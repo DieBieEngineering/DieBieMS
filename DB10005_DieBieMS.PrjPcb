@@ -406,75 +406,15 @@ Variation19=Designator=R64|UniqueId=\CAOILPCH\SMHWILWX|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.DRR
+DocumentPath=Project Outputs for DB10005_DieBieMS\BOM\Bill of Materials-DB10005_DieBieMS(Production).csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.EXTREP
+DocumentPath=Project Outputs for DB10005_DieBieMS\Pick Place\Pick Place for DB10005_BMS(Production).csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.G1
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.G2
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GM29
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.REP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.TXT
+DocumentPath=Project Outputs for DB10005_DieBieMS\Pick Place\Pick Place for DB10005_BMS(Production).txt
 DItemRevisionGUID=
 
 [Configuration1]
@@ -855,48 +795,48 @@ Name=Report Outputs
 Description=
 TargetPrinter=Samsung C460
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=Script
+OutputName1=Script Output
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration1_Name1=ColumnNameFormat
-Configuration1_Item1=CaptionAsName
-Configuration1_Name2=Filter
-Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1263|FormHeight=922|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
-Configuration1_Name5=OutputConfigurationParameter1
-Configuration1_Item5=??
-Configuration1_Name6=SortOrder
-Configuration1_Item6=Quantity=Down
-Configuration1_Name7=VisibleOrder
-Configuration1_Item7=Quantity=113|Supplier=113|Order Code Supplier=113|LibRef=113|Comment=113|Description=113|Designator=113|Footprint=113
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=SimpleBOM
+OutputName2=Simple BOM
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+OutputType3=SinglePinNetReporter
+OutputName3=Report Single Pin Nets
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Script
-OutputName4=Script Output
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=Filter
+Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name3=General
+Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1263|FormHeight=922|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration4_Name4=GroupOrder
+Configuration4_Item4=Comment=True|Footprint=True
+Configuration4_Name5=OutputConfigurationParameter1
+Configuration4_Item5=??
+Configuration4_Name6=SortOrder
+Configuration4_Item6=Quantity=Down
+Configuration4_Name7=VisibleOrder
+Configuration4_Item7=Quantity=113|Supplier=113|Order Code Supplier=113|LibRef=113|Comment=113|Description=113|Designator=113|Footprint=113
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
@@ -1487,7 +1427,7 @@ ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=AR_Capacitors_Ceramic.IntLib
 ComponentDesignItemID0=*F/0805/CER/16V - PLEASE CHANGE TYPE!!!
 ComponentSymbolReference0=*F/0805/CER/16V - PLEASE CHANGE TYPE!!!
-ComponentUpdate0=0
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=AR_Capacitors_Ceramic.IntLib
