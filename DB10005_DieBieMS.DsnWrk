@@ -2,3 +2,5 @@
 Version=1.0
 [Project1]
 ProjectPath=DB10005_DieBieMS.PrjPcb
+[Project2]
+ProjectPath=..\..\..\DieBieHighCurrentShield\Hardware\DB10018_HiAmpShield\DB10018_HiAmpShield.PrjPcb
