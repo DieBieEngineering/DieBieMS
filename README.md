@@ -93,7 +93,7 @@ Power switching demo (early firmware state):
 
 More complete demo:
 
-[![VIDEO01](http://img.youtube.com/vi/dPrGB-z_9Pw/0.jpg)](http://www.youtube.com/watch?v=dPrGB-z_9Pw)
+[![VIDEO02](http://img.youtube.com/vi/dPrGB-z_9Pw/0.jpg)](http://www.youtube.com/watch?v=dPrGB-z_9Pw)
 
 #### Electric scooter
 No videos available yet.
