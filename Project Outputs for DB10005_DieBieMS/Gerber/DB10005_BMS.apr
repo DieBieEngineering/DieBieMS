@@ -52,11 +52,11 @@ D68   RECTANGULAR        70.866      62.992       0.000 FLASH     270.000
 D69   RECTANGULAR        55.118     118.110       0.000 FLASH     270.000
 D70   RECTANGULAR       236.220     255.905       0.000 FLASH     270.000
 D71   RECTANGULAR        64.961      79.921       0.000 FLASH       0.000
-D72   ROUNDED             7.874       7.874       0.000  LINE       0.000
-D73   ROUNDED            11.811      11.811       0.000  LINE       0.000
-D74   ROUNDED            15.748      15.748       0.000  LINE       0.000
-D75   ROUNDED            23.622      23.622       0.000  LINE       0.000
-D76   ROUNDED            31.496      31.496       0.000  LINE       0.000
+D72   ROUNDED            31.496      31.496       0.000  LINE       0.000
+D73   ROUNDED             7.874       7.874       0.000  LINE       0.000
+D74   ROUNDED            11.811      11.811       0.000  LINE       0.000
+D75   ROUNDED            15.748      15.748       0.000  LINE       0.000
+D76   ROUNDED            23.622      23.622       0.000  LINE       0.000
 D77   ROUNDED            19.685      19.685       0.000  LINE       0.000
 D78   ROUNDED            39.370      39.370       0.000  LINE       0.000
 D79   ROUNDED             9.842       9.842       0.000  LINE       0.000
@@ -139,8 +139,8 @@ D168  RECTANGULAR        63.118     126.110       0.000 FLASH     270.000
 D169  RECTANGULAR       244.220     263.906       0.000 FLASH     270.000
 D170  RECTANGULAR        72.961      87.921       0.000 FLASH       0.000
 D171  ROUNDED            86.740      86.740       0.000 FLASH       0.000
-D172  ROUNDED           145.795     145.795       0.000 FLASH       0.000
-D173  ROUNDED             8.000       8.000       0.000 FLASH       0.000
+D172  ROUNDED             8.000       8.000       0.000 FLASH       0.000
+D173  ROUNDED           145.795     145.795       0.000 FLASH       0.000
 D174  ROUNDED            82.803      82.803       0.000 FLASH       0.000
 D175  ROUNDED            27.685      27.685       0.000 FLASH       0.000
 D176  ROUNDED           283.591     283.591       0.000 FLASH       0.000

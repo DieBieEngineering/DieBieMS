@@ -101,7 +101,7 @@ Generating : L2
 
 
 Used DCodes :
-    D73
+    D74
     D80
     D82
     D83
@@ -181,9 +181,9 @@ Generating : Top Overlay
 
 
 Used DCodes :
-    D72
     D73
     D74
+    D75
     D97
     D98
     D99
@@ -278,8 +278,8 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D72
-    D74
+    D73
+    D75
     D109
     D110
     D111
@@ -420,8 +420,8 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
-    D72
     D73
+    D74
     D99
     D101
 *************************************************************
@@ -434,6 +434,6 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-    D72
+    D73
 *************************************************************
 

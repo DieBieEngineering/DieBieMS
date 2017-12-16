@@ -4,8 +4,8 @@ C:\Projecten\DieBieMS\GitHub\Hardware\Project Outputs for DB10005_DieBieMS\Pick 
 ========================================================================================================================
 File Design Information:
 
-Date:       05-09-17
-Time:       14:37
+Date:       16-12-17
+Time:       22:58
 Revision:   Not in VersionControl
 Variant:    Production
 Units used: mm
@@ -183,8 +183,8 @@ Units used: mm
 "R15","10R","TopLayer","0603","88.6000","1.6000","90","Resistor, 10R, 1%, 0.063W, 50V, 200PPM, 0603"
 "R2","2.2K","TopLayer","0603","70.1000","-22.1000","270","Resistor, 2.2K, 1%, 0.063W, 50V, 100PPM, 0603"
 "J9","53261-0571","TopLayer","53261-0571","74.0000","-26.0250","360","PicoBlade 53261 Series, 5Pin, Right Angle"
-"J5","M5 Bush","TopLayer","7460408_HAL_Surface","10.0000","-20.0000","0","Bush with Circumference M5"
-"J4","M5 Bush","TopLayer","7460408_HAL_Surface","10.0000","20.0000","0","Bush with Circumference M5"
+"J5","M5 Bush","BottomLayer","7460408_HAL_Surface","10.0000","-20.0000","180","Bush with Circumference M5"
+"J4","M5 Bush","BottomLayer","7460408_HAL_Surface","10.0000","20.0000","180","Bush with Circumference M5"
 "D6","HMHA2801","TopLayer","FSOP4","69.3000","-15.3000","90","Optocoupler, Vout:80V, Iin:0.01A"
 "D1","ESDA6V1L","TopLayer","SOT23","77.8000","-22.2000","180","Diode TVS Dual, Vrwm: 5.25V, Vbr: 7.2V, Vc: 12.45V, Ippm: 15A"
 "C22","100nF","TopLayer","C-0805","88.2000","-2.0000","90","Capacitor, 100nF, 100V, X7R"
@@ -203,10 +203,10 @@ Units used: mm
 "IC3","LM5165YDRCT","TopLayer","PWSON10","87.0000","19.5000","360","Buck Vreg 150mA 3V3 out 5-65Vin"
 "IC5","CP2104-F03-GM","TopLayer","QFN24","61.9000","-17.7000","270","USB to UART converter"
 "IC6","ISL28022","TopLayer","MSOP10","83.9000","-4.0000","360","Current and voltage ADC"
-"J1","M5 Bush","TopLayer","7460408_HAL_Surface","130.0000","-20.0000","0","Bush with Circumference M5"
-"J2","M5 Bush","TopLayer","7460408_HAL_Surface","100.0000","20.0000","0","Bush with Circumference M5"
-"J3","M5 Bush","TopLayer","7460408_HAL_Surface","100.0000","-20.0000","0","Bush with Circumference M5"
-"J8","M5 Bush","TopLayer","7460408_HAL_Surface","130.0000","20.0000","0","Bush with Circumference M5"
+"J1","M5 Bush","BottomLayer","7460408_HAL_Surface","130.0000","-20.0000","180","Bush with Circumference M5"
+"J2","M5 Bush","BottomLayer","7460408_HAL_Surface","100.0000","20.0000","180","Bush with Circumference M5"
+"J3","M5 Bush","BottomLayer","7460408_HAL_Surface","100.0000","-20.0000","180","Bush with Circumference M5"
+"J8","M5 Bush","BottomLayer","7460408_HAL_Surface","130.0000","20.0000","180","Bush with Circumference M5"
 "J10","53261-0571","BottomLayer","53261-0571","72.0000","26.0750","360","PicoBlade 53261 Series, 5Pin, Right Angle"
 "L1","150uH 0.42A","TopLayer","WE-TPC_4828,_MH","82.0000","19.5000","90","150UH, 30%, 0.42A"
 "R4","240","TopLayer","0402","64.8000","-14.0000","270","Resistor, 240, 0.1%, 0.0625W, 50V, 100PPM, 0402"
@@ -219,7 +219,7 @@ Units used: mm
 "C16","2.2uF","TopLayer","C0603","64.0000","-21.5000","180","Capacitor, 2.2uF, 16V, X5R"
 "C18","2.2uF","TopLayer","C0603","58.5000","-14.6000","270","Capacitor, 2.2uF, 16V, X5R"
 "C23","10nF","TopLayer","C-0805","87.5000","-7.6000","270","Capacitor, 10nF, 100V, X7R"
-"C24","10nF","TopLayer","C-0805","91.5000","-16.6000","180","Capacitor, 10nF, 100V, X7R"
+"C24","10nF","TopLayer","C-0805","91.5000","-18.2000","180","Capacitor, 10nF, 100V, X7R"
 "D5","1N4148W","TopLayer","SOD123","119.0000","-4.1000","360","Diode, Vrrm: 100V, If: 0.15A, Vf: 1V"
 "R3","100R","TopLayer","0805","75.2000","23.2000","180","Resistor, 100R, 1%, 0.25W, 150V, 100PPM, 0805"
 "R49","4.75k","TopLayer","0402","80.9071","1.6071","315","Resistor, 4.75k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
@@ -231,7 +231,7 @@ Units used: mm
 "R29","470","TopLayer","0402","123.1000","-4.1000","360","Resistor, 470, 1%, 0.0625W, 50V, 100PPM, 0402"
 "R30","4.7M","TopLayer","0805","117.7000","5.0000","90","Resistor, 4.7M, 1%, 0.25W, 150V, 100PPM, 0805"
 "R31","4.7M","TopLayer","0805","104.5000","-11.9000","270","Resistor, 4.7M, 1%, 0.25W, 150V, 100PPM, 0805"
-"R32","100R","TopLayer","0603","91.5000","-18.2000","360","Resistor, 100R, 1%, 0.063W, 50V, 200PPM, 0603"
+"R32","100R","TopLayer","0603","91.5000","-16.5000","360","Resistor, 100R, 1%, 0.063W, 50V, 200PPM, 0603"
 "R34","4.7M","TopLayer","0805","110.5000","9.0000","90","Resistor, 4.7M, 1%, 0.25W, 150V, 100PPM, 0805"
 "R35","100R","TopLayer","0805","90.9000","-11.3000","90","Resistor, 100R, 1%, 0.25W, 150V, 100PPM, 0805"
 "U2","AI-1027-TWT-5V","TopLayer","AI-1027-TWT","90.0000","-24.7000","90","EM 5VDC 2300Hz 82dBA Continuous Top Fire"
@@ -245,6 +245,7 @@ Units used: mm
 "R69","0R","BottomLayer","0805","73.4000","-22.1000","180","Resistor, 0R, 0.1%, 0.1W, 150V, 200PPM, 0805"
 "R70","470","TopLayer","0402","77.1000","16.7000","90","Resistor, 470, 1%, 0.0625W, 50V, 100PPM, 0402"
 "R72","1.5k","TopLayer","0402","88.7000","-18.4000","270","Resistor, 1.5k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
+"C7","2.2uF","TopLayer","C-0805","89.1000","-11.3000","90","Capacitor, 2.2uF, 50V,  X7R"
 "L3","BLM18PG330SN1D","TopLayer","L0603","58.0000","-10.9000","180","Ferrite Bead, Impedance:33ohm, DC Resistance Max:0.025ohm, DC Current Rating:3A"
 "J16","53261-0571","BottomLayer","53261-0571","74.0000","-15.6250","180","PicoBlade 53261 Series, 5Pin, Right Angle"
 "Q12","BSS123","TopLayer","SOT-23","74.6000","-4.1000","180","Mosfet, N-channel, Vds:100V, Id:0.15A, Vgs-th:2.8V, Rds-on:3.5ohm"
