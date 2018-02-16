@@ -101,11 +101,12 @@ Generating : L2
 
 
 Used DCodes :
-    D74
+    D78
     D80
+    D81
     D82
     D83
-    D85
+    D84
     D86
     D87
 *************************************************************
@@ -121,15 +122,16 @@ Generating : L3
 
 Used DCodes :
     D72
-    D73
-    D74
     D75
     D76
+    D77
+    D78
     D79
     D80
+    D81
     D82
     D83
-    D85
+    D84
     D86
     D87
 *************************************************************
@@ -144,16 +146,16 @@ Generating : L4
 
 
 Used DCodes :
-    D19
-    D25
+    D18
+    D24
     D36
     D38
     D72
-    D73
     D74
     D75
     D76
     D77
+    D78
     D80
     D81
     D82
@@ -181,9 +183,9 @@ Generating : Top Overlay
 
 
 Used DCodes :
-    D73
-    D74
     D75
+    D76
+    D78
     D97
     D98
     D99
@@ -236,8 +238,8 @@ Used DCodes :
     D42
     D43
     D44
+    D45
     D46
-    D47
     D48
     D49
     D50
@@ -250,7 +252,7 @@ Used DCodes :
     D60
     D61
     D62
-    D64
+    D63
     D65
     D66
     D67
@@ -278,8 +280,8 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D73
     D75
+    D76
     D109
     D110
     D111
@@ -363,8 +365,8 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D118
-    D124
+    D117
+    D123
     D135
     D137
     D171
@@ -397,8 +399,8 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D19
-    D25
+    D18
+    D24
     D36
     D38
     D88
@@ -420,8 +422,8 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
-    D73
-    D74
+    D75
+    D78
     D99
     D101
 *************************************************************
@@ -434,6 +436,6 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-    D73
+    D75
 *************************************************************
 

@@ -6,3 +6,5 @@ ProjectPath=DB10005_DieBieMS.PrjPcb
 ProjectPath=..\..\..\DieBieHighCurrentShield\Hardware\DB10018_HiAmpShield\DB10018_HiAmpShield.PrjPcb
 [Project3]
 ProjectPath=..\..\..\DieBieHighCurrentShield\Hardware\DB10018_HiAmpShield\DB10021_BatteryAdaptor.PrjPcb
+[Project4]
+ProjectPath=..\..\..\DieBieSolidStateRelay\Hardware\DB10022_SolidStateRelay\DB10022_SolidStateRelay.PrjPcb
