@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DB10005_BMS.PcbDoc   8-1-2018  00:38:21
+NCDrill File Report For: DB10005_BMS.PcbDoc   18-4-2018  21:49:01
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : L1 to L4
@@ -7,9 +7,9 @@ ASCII RoundHoles File : DB10005_BMS.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.249mm)                                           Round             509       PTH        50.24inch (1276.07mm)
+T1      10mil (0.249mm)                                           Round             507       PTH        50.30inch (1277.64mm)
 T2      12mil (0.3mm)                                             Round             5         PTH        0.15inch (3.80mm)
-T3      16mil (0.399mm)                                           Round             334       PTH        38.82inch (986.15mm)
+T3      16mil (0.399mm)                                           Round             339       PTH        40.65inch (1032.57mm)
 T4      39mil (1.001mm)                                           Round             2         PTH        0.20inch (5.00mm)
 T5      51mil (1.3mm)                                             Round             2         PTH        0.28inch (7.15mm)
 T6      57mil (1.45mm)                                            Round             72        PTH        17.32inch (440.02mm)
@@ -18,6 +18,6 @@ T8      126mil (3.2mm)                                            Round         
 T9      209mil (5.301mm)                                          Round             6         PTH        11.02inch (280.00mm)
 T10     20mil (0.5mm)                                             Round             6         NPTH       13.84inch (351.58mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              942
+Totals                                                                              945
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
