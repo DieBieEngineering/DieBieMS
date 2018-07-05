@@ -3,8 +3,12 @@ Version=1.0
 [Project1]
 ProjectPath=DB10005_DieBieMS.PrjPcb
 [Project2]
-ProjectPath=..\..\..\DieBieHighCurrentShield\Hardware\DB10018_HiAmpShield\DB10018_HiAmpShield.PrjPcb
+ProjectPath=DB10022_SolidStateRelay.PrjPcb
 [Project3]
-ProjectPath=..\..\..\DieBieHighCurrentShield\Hardware\DB10018_HiAmpShield\DB10021_BatteryAdaptor.PrjPcb
+ProjectPath=DB10018_HiAmpShield.PrjPcb
 [Project4]
-ProjectPath=..\..\..\DieBieSolidStateRelay\Hardware\DB10022_SolidStateRelay\DB10022_SolidStateRelay.PrjPcb
+ProjectPath=DB10021_BatteryAdaptor.PrjPcb
+[Project5]
+ProjectPath=DB10027_StrutConAdaptor01.PrjPcb
+[Project6]
+ProjectPath=DB10028_ChargerController.PrjPcb

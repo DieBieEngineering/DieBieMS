@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=Production
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Samsung C460
+TargetPrinter=Samsung C460 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -266,7 +266,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Projecten\DieBieMS\GitHub\Hardware\Project Outputs for DB10005_DieBieMS\
+OutputFilePath3=C:\Users\Gebruiker\Desktop\JetFoilerBMSData\Project Outputs for DB10005_DieBieMS\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for DB10005_DieBieMS
 OutputPathMedia3=
@@ -320,7 +320,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Projecten\DieBieMS\GitHub\Hardware\Project Outputs for DB10005_DieBieMS\
 OpenOutputs2=1
-RelativeOutputPath3=C:\Projecten\DieBieMS\GitHub\Hardware\Project Outputs for DB10005_DieBieMS\
+RelativeOutputPath3=C:\Users\Gebruiker\Desktop\JetFoilerBMSData\Project Outputs for DB10005_DieBieMS\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
