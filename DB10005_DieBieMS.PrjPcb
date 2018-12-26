@@ -328,23 +328,6 @@ GenerateClassCluster=0
 DocumentUniqueId=RVESPAPC
 
 [Document18]
-DocumentPath=DB10005_Software.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=8
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OCWPFKJU
-
-[Document19]
 DocumentPath=DB10005_Wireless.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -361,7 +344,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EQCXJPDX
 
-[Document20]
+[Document19]
 DocumentPath=DB10005_Wireless.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -383,7 +366,7 @@ UniqueID=EAEF25F5-BFEF-4CFA-8AEC-E22CB73F1636
 Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=23
+VariationCount=22
 Variation1=Designator=R39_CELL7|UniqueId=\JAGOFHPB\7PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
 Variation2=Designator=R39_CELL1|UniqueId=\JAGOFHPB\1PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
 Variation3=Designator=R39_CELL2|UniqueId=\JAGOFHPB\2PNEHJJTR\OQEEQABB|Kind=1|AlternatePart= 
@@ -403,11 +386,86 @@ Variation16=Designator=C26|UniqueId=\JHHAIHGM\UKWYMCHX|Kind=1|AlternatePart=
 Variation17=Designator=C6|UniqueId=\LNHRQXPS\HMIGNBFB|Kind=1|AlternatePart= 
 Variation18=Designator=J15|UniqueId=\LNHRQXPS\XKLENGYD|Kind=1|AlternatePart= 
 Variation19=Designator=R64|UniqueId=\CAOILPCH\SMHWILWX|Kind=1|AlternatePart= 
-Variation20=Designator=R74|UniqueId=\CAOILPCH\ECESINAU|Kind=0|AlternatePart= 
-Variation21=Designator=R69|UniqueId=\TEPUMQPK|Kind=1|AlternatePart= 
-Variation22=Designator=L3|UniqueId=\LNHRQXPS\TVCMSQJN|Kind=1|AlternatePart= 
-Variation23=Designator=R71|UniqueId=\CAOILPCH\NBEBOFWG|Kind=1|AlternatePart= 
+Variation20=Designator=R69|UniqueId=\RXOOONAD\PGVAGFIX|Kind=1|AlternatePart= 
+Variation21=Designator=L3|UniqueId=\LNHRQXPS\TVCMSQJN|Kind=1|AlternatePart= 
+Variation22=Designator=R71|UniqueId=\CAOILPCH\NBEBOFWG|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DB10005_DieBieMS\BOM\Bill of Materials-DB10005_DieBieMS(Production).csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Gerber\DB10005_BMS.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for DB10005_DieBieMS\NC Drill\DB10005_BMS.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Pick Place\Pick Place for DB10005_BMS(Production).csv
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for DB10005_DieBieMS\Pick Place\Pick Place for DB10005_BMS(Production).txt
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -1102,46 +1160,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad SDT Schematic
-OutputName12=Orcad SDT Schematic (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Protel PCB 2.8 ASCII
-OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

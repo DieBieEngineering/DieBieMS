@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DB10005_BMS.PcbDoc   27-10-2018  23:37:03
+NCDrill File Report For: DB10005_BMS.PcbDoc   29-10-2018  23:00:26
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : L1 to L4
@@ -7,10 +7,10 @@ ASCII RoundHoles File : DB10005_BMS.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.249mm)                                           Round             505       PTH        47.13inch (1196.99mm)
+T1      10mil (0.249mm)                                           Round             510       PTH        48.86inch (1241.14mm)
 T2      12mil (0.3mm)                                             Round             10        PTH        1.18inch (29.94mm)
-T3      16mil (0.399mm)                                           Round             339       PTH        40.65inch (1032.57mm)
-T4      20mil (0.5mm)                                             Round             4         PTH        12.82inch (325.50mm)
+T3      16mil (0.399mm)                                           Round             331       PTH        41.21inch (1046.78mm)
+T4      20mil (0.5mm)                                             Round             4         PTH        12.80inch (325.00mm)
 T5      39mil (1.001mm)                                           Round             2         PTH        0.20inch (5.00mm)
 T6      51mil (1.3mm)                                             Round             2         PTH        0.28inch (7.15mm)
 T7      57mil (1.45mm)                                            Round             72        PTH        17.32inch (440.02mm)
@@ -18,6 +18,6 @@ T8      95mil (2.41mm)                                            Round         
 T9      126mil (3.2mm)                                            Round             4         PTH        8.66inch (220.00mm)
 T10     209mil (5.301mm)                                          Round             6         PTH        11.02inch (280.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              946
+Totals                                                                              943
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00

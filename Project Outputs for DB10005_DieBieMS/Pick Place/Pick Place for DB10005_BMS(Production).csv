@@ -4,13 +4,14 @@ C:\Projecten\DieBieMS\GitHub\Hardware\Project Outputs for DB10005_DieBieMS\Pick 
 ========================================================================================================================
 File Design Information:
 
-Date:       27-10-18
-Time:       23:37
+Date:       29-10-18
+Time:       23:00
 Revision:   Not in VersionControl
 Variant:    Production
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R69","120R","TopLayer","0805","76.7000","-21.5000","360","Resistor, 0R, 0.1%, 0.1W, 150V, 200PPM, 0805"
 "R56","0R","TopLayer","0603","51.7000","-28.3000","180","Resistor, 0R, 0.1%, 0.063W, 50V, 200PPM, 0603"
 "R74","NTCS0805E4104JMT","TopLayer","0805","121.0000","16.5000","90","THERMISTOR, NTC, 100K, 5%"
 "Q13","BSS123","TopLayer","SOT-23","78.1000","-4.1000","180","Mosfet, N-channel, Vds:100V, Id:0.15A, Vgs-th:2.8V, Rds-on:3.5ohm"
@@ -19,7 +20,6 @@ Units used: mm
 "C7","2.2uF","TopLayer","C-0805","89.1000","-11.3000","90","Capacitor, 2.2uF, 50V,  X7R"
 "R72","1.5k","TopLayer","0402","88.7000","-18.4000","270","Resistor, 1.5k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
 "R70","470","TopLayer","0402","77.1000","16.7000","90","Resistor, 470, 1%, 0.0625W, 50V, 100PPM, 0402"
-"J6","53261-0571","BottomLayer","53261-0571","74.0000","-26.0250","180","PicoBlade 53261 Series, 5Pin, Right Angle"
 "C4","100nF","TopLayer","C0402","78.2000","13.0000","225","Capacitor, 100nF, 25V, X7R"
 "Q11","BSS123","TopLayer","SOT-23","86.4000","-18.9000","270","Mosfet, N-channel, Vds:100V, Id:0.15A, Vgs-th:2.8V, Rds-on:3.5ohm"
 "D25","SMBJ70A-TR","TopLayer","SMB","108.5000","20.0000","90","Diode TVS, Vrwm: 70V, Vbr: 81.9V, Vc: 113V, Ippm: 27A"
@@ -32,7 +32,7 @@ Units used: mm
 "R32","100R","TopLayer","0603","91.5000","-16.5000","360","Resistor, 100R, 1%, 0.063W, 50V, 200PPM, 0603"
 "R31","4.7M","TopLayer","0805","104.5000","-11.9000","270","Resistor, 4.7M, 1%, 0.25W, 150V, 100PPM, 0805"
 "R30","4.7M","TopLayer","0805","117.7000","5.0000","90","Resistor, 4.7M, 1%, 0.25W, 150V, 100PPM, 0805"
-"R29","470","TopLayer","0402","123.1000","-4.1000","360","Resistor, 470, 1%, 0.0625W, 50V, 100PPM, 0402"
+"R29","33K","TopLayer","0603","118.0000","-14.5000","360","Resistor, 33K, 1%, 0.063W, 50V, 100PPM, 0603"
 "R28","100R","TopLayer","0805","92.7000","-11.3000","90","Resistor, 100R, 1%, 0.25W, 150V, 100PPM, 0805"
 "R27","100R","TopLayer","0805","91.5000","-14.8000","360","Resistor, 100R, 1%, 0.25W, 150V, 100PPM, 0805"
 "R26","100R","TopLayer","0603","91.5000","-7.7000","360","Resistor, 100R, 1%, 0.063W, 50V, 200PPM, 0603"
@@ -40,13 +40,12 @@ Units used: mm
 "R13","4.75k","TopLayer","0402","80.2000","0.9000","315","Resistor, 4.75k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
 "R49","4.75k","TopLayer","0402","80.9071","1.6071","315","Resistor, 4.75k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
 "R3","100R","TopLayer","0805","75.2000","23.2000","180","Resistor, 100R, 1%, 0.25W, 150V, 100PPM, 0805"
-"D5","1N4148W","TopLayer","SOD123","119.0000","-4.1000","360","Diode, Vrrm: 100V, If: 0.15A, Vf: 1V"
 "C24","10nF","TopLayer","C-0805","91.5000","-18.2000","180","Capacitor, 10nF, 100V, X7R"
 "C23","10nF","TopLayer","C-0805","87.5000","-7.6000","270","Capacitor, 10nF, 100V, X7R"
 "C18","2.2uF","TopLayer","C0603","58.5000","-14.6000","270","Capacitor, 2.2uF, 16V, X5R"
 "C16","2.2uF","TopLayer","C0603","64.0000","-21.5000","180","Capacitor, 2.2uF, 16V, X5R"
 "C15","2.2uF","TopLayer","C0603","61.7000","-13.5000","180","Capacitor, 2.2uF, 16V, X5R"
-"D7","STPS41H100CG","TopLayer","D2-PAK","127.2000","-9.3000","270","100 V, 40 A, TO-263, 3 Pins, 900 mV"
+"D7","BZT52C16","TopLayer","SOD123","138.2000","-8.7000","90","Diode Zener, Vz: 16V, If: 0.1A, Vf: 0.9V"
 "X1","8MHz","TopLayer","XTAL150SMD_125X196","70.4000","11.8000","45","8MHZ, 18PF, 5 X 3.2MM"
 "R11","1mOhm","TopLayer","FCSL110","100.0001","9.0001","180","1mohm, 5 W, ± 5%, 4320 Wide"
 "R9","470","TopLayer","0402","71.7000","0.5000","90","Resistor, 470, 1%, 0.0625W, 50V, 100PPM, 0402"
@@ -74,12 +73,11 @@ Units used: mm
 "C20","100nF","TopLayer","C-0805","90.0000","-2.0000","90","Capacitor, 100nF, 100V, X7R"
 "C21","100nF","TopLayer","C-0805","91.8000","-2.0000","90","Capacitor, 100nF, 100V, X7R"
 "C22","100nF","TopLayer","C-0805","88.2000","-2.0000","90","Capacitor, 100nF, 100V, X7R"
-"D1","ESDA6V1L","TopLayer","SOT23","77.8000","-22.2000","180","Diode TVS Dual, Vrwm: 5.25V, Vbr: 7.2V, Vc: 12.45V, Ippm: 15A"
 "D6","HMHA2801","TopLayer","FSOP4","69.3000","-15.3000","90","Optocoupler, Vout:80V, Iin:0.01A"
 "J4","M5 Bush","TopLayer","7460408_HAL_Surface","10.0000","20.0000","0","Bush with Circumference M5"
 "J5","M5 Bush","TopLayer","7460408_HAL_Surface","10.0000","-20.0000","0","Bush with Circumference M5"
 "J9","53261-0571","TopLayer","53261-0571","74.0000","-26.0250","360","PicoBlade 53261 Series, 5Pin, Right Angle"
-"R2","2.2K","TopLayer","0603","70.1000","-22.1000","270","Resistor, 2.2K, 1%, 0.063W, 50V, 100PPM, 0603"
+"R2","2.2K","TopLayer","0603","69.9000","-22.1000","270","Resistor, 2.2K, 1%, 0.063W, 50V, 100PPM, 0603"
 "R15","10R","TopLayer","0603","88.6000","1.6000","90","Resistor, 10R, 1%, 0.063W, 50V, 200PPM, 0603"
 "R16","10R","TopLayer","0603","90.1000","1.6000","90","Resistor, 10R, 1%, 0.063W, 50V, 200PPM, 0603"
 "R17","10R","TopLayer","0603","91.6000","1.6000","90","Resistor, 10R, 1%, 0.063W, 50V, 200PPM, 0603"
@@ -95,7 +93,7 @@ Units used: mm
 "R23","10k","TopLayer","0402","84.9000","-8.0000","270","Resistor, 10k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
 "R24","10k","TopLayer","0402","83.9000","-8.0000","270","Resistor, 10k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
 "R25","10k","TopLayer","0402","82.9000","-8.0000","270","Resistor, 10k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
-"D2","HMHA2801","TopLayer","FSOP4","118.0000","-9.3000","270","Optocoupler, Vout:80V, Iin:0.01A"
+"D2","HMHA2801","TopLayer","FSOP4","118.0000","-9.3000","90","Optocoupler, Vout:80V, Iin:0.01A"
 "Q4","IRFR6215","TopLayer","D-PAK","116.8250","10.7000","270","Mosfet, P-channel, Vds:150V, Id:13A, Vgs-th:4V, Rds-on:0.295ohm"
 "R33","18R","TopLayer","SM_3","130.0000","11.0000","360","Resistor Wirewound, 18R, 5%, 3W, 500V, 200PPM, SMW"
 "U1","LTC6803-2","TopLayer","SSOP44","61.5000","-1.8000","360","Multicell Battery Stack Monitor, T:-40°C to +85°C"
@@ -251,3 +249,10 @@ Units used: mm
 "C42","100nF","TopLayer","C0402","67.5000","8.8000","180","Capacitor, 100nF, 25V, X7R"
 "C43","2.2uF","TopLayer","C-0805","86.9000","1.6000","90","Capacitor, 2.2uF, 50V,  X7R"
 "R73","1M","TopLayer","0402","86.8000","3.8000","180","Resistor, 1M, 0.1%, 0.0625W, 50V, 100PPM, 0402"
+"Q14","IRF4905SPBF","TopLayer","D2-PAK","129.8000","-8.7000","90","Mosfet, P-channel, Vds:-55V, Id:-42A, Vgs-th:-4V, Rds-on:0.02ohm"
+"Q15","BSS123","TopLayer","SOT-23","115.0000","-27.0000","270","Mosfet, N-channel, Vds:100V, Id:0.15A, Vgs-th:2.8V, Rds-on:3.5ohm"
+"R75","0","TopLayer","0402","61.0000","21.3000","270","Resistor, 0, 0.1%, 0.0625W, 50V, 100PPM, 0402"
+"R76","0","TopLayer","0402","112.4000","-26.0000","270","Resistor, 0, 0.1%, 0.0625W, 50V, 100PPM, 0402"
+"R77","4.7M","TopLayer","0805","135.9000","-8.7000","270","Resistor, 4.7M, 1%, 0.25W, 150V, 100PPM, 0805"
+"R78","4.75k","TopLayer","0402","112.4000","-27.9000","90","Resistor, 4.75k, 0.1%, 0.0625W, 50V, 100PPM, 0402"
+"R79","33K","TopLayer","0603","117.6000","-27.0000","90","Resistor, 33K, 1%, 0.063W, 50V, 100PPM, 0603"

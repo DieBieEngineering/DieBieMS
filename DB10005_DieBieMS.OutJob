@@ -217,7 +217,7 @@ OutputType10=BOM_PartType
 OutputName10=Bill of Materials
 OutputCategory10=Report
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=Production
 OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=6
@@ -230,7 +230,7 @@ Configuration10_Item1=CaptionAsName
 Configuration10_Name2=Filter
 Configuration10_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration10_Name3=General
-Configuration10_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1491|FormHeight=814|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration10_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1491|FormHeight=905|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration10_Name4=GroupOrder
 Configuration10_Item4=Comment=True|Footprint=True
 Configuration10_Name5=SortOrder
