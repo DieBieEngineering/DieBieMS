@@ -1,7 +1,7 @@
 DieBieMS - Hardware
 ===
 # Introduction
-My personal transportation environment is becoming more and more electrical. All vehicles so far contain Lithium based batteries and need some form of automated management to be utilized in a safe and easy way. All affordable alternatives that I could find were either to dangerous(extreme cell voltage limits), couldn't carry the desired current (>70A), not compact enough or were not customizable. with this fully opensource project I would like to contribute to a more safe and affordable Lithium based electric vehicle (or possible other usage) future.
+My personal transportation environment is becoming more and more electrical. All vehicles so far contain Lithium based batteries and need some form of automated management to be utilized in a save and easy way. All affordable alternatives that I could find were either to dangerous(extreme cell voltage limits), couldn't carry the desired current (>70A), not compact enough or were not customizable. with this fully opensource project I would like to contribute to a more save and affordable Lithium based electric vehicle (or possible other usage) future.
 
 ![alt text](Binaries/Images/DieBieMSV0_4TOP.png "DieBieMS V0.4 TopView")
 
@@ -16,7 +16,7 @@ There have been two hardware realizations so far, not all design revisions make 
    * To small capacitor C7, this makes that the LOAD+ output sometimes fail to enable.
    * Components C37 and the 0R jumper resistor (removed in V0.3) are to close to U1 (LTC6803) making it difficult to assemble.
    * Pre-charge resistor R33 to low (will burn if load capacitance is to high)
-
+   
 * V0.3 Fixed version of V0.1 with added functionality ( current version)
    This version has some added functionality:
    * SDCard for logging (to develop a SoC and SoH algorithm)
@@ -24,10 +24,10 @@ There have been two hardware realizations so far, not all design revisions make 
    * A serial port connector for an external OpenLOG logger (if fast SDCard implementation is not as trivial as I thought).
    * An option to bypass the charge input diode allowing higher charge currents.
    * An option to add an extra shunt resistor to allow for higher measurable battery current.
-
+   
 * V0.4
    * Improved charge diode bypass current carrying capability (in development)
-
+   
 Production data for most recent version can be found [here](Project%20Outputs%20for%20DB10005_DieBieMS). The initial project blog/log can be found [here](http://www.electric-skateboard.builders/t/diy-6s-to-12s-bms-with-can/2639). And the schematic in PDF [here](Project%20Outputs%20for%20DB10005_DieBieMS/DB10005_DieBieMS.PDF).
 
 ### Features
@@ -52,13 +52,13 @@ This BMS is an all in one solution, combined with a lithium battery it is possib
 * Pack voltage 12V to 54V
 
 # Realisation
-Out of the many ways to realise an all in one BMS I choose the more simple but maybe more expensive way. Since there is a lot of desired functionality and the need for a small footprint many features are realized by complex chips.
+Out of the many ways to realise an all in one BMS I choose the more simple but maybe more expensive way. Since there is a lot of desired functionality and the need for a small footprint many features are realized by complex chips. 
 
 #### Power-on state management
 There are several ways to enable the BMS and put it into the corresponding operation mode. As of now the following modes of operation are present:
 * Normal operation
 
-   This mode is triggered by a single pres on the powerbutton, when the button is released the microcontroller keeps the BMS on. A long pres will powerdown the BMS. The LED turns solid on when enabled and turn off when powerdown long buttonpress is detected.
+   This mode is triggered by a single pres on the powerbutton, when the button is released the microcontroller keeps the BMS on. A long pres will powerdown the BMS. The LED turns solid on when enabled and turn off when powerdown long buttonpress is detected. 
 * Charging mode
 
    When the CHARGE+ input is brought >3V above the PACK+ terminal the BMS is booting into charge mode, the microcontroller will check the cell voltages and if desired enable the switch to allow current to flow from CHARGE+ to PACK+. In this mode the microcontroller knows the presence of the charge. If the charger is removed the microcontroller will keep the BMS on for a configurable amount of time to display a status message (show for example the charged amount) followed by powering down.
