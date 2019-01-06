@@ -8,7 +8,7 @@ My personal transportation environment is becoming more and more electrical. All
 ![alt text](Binaries/Images/DieBieMSV0_4BOTTOM.png "DieBieMS V0.4 BottomView")
 
 ### Other parts of this project
-This is the hardware repository containing all hardware source files (designed in altium) and the project outputs to build a BMS PCB. There are three more repositories for this project:
+This is the hardware repository containing all hardware source files (designed in altium) and the project outputs to build a BMS PCB. There are three more repositories for this project:<br>
 [DieBieMS Firmware](https://github.com/DieBieEngineering/DieBieMS-Firmware) has to be flashed to the empty BMS STM32, the build .bin and hex file can be found in the BMS tool [resource folder](https://github.com/DieBieEngineering/DieBieMS-Tool/tree/master/res/firmwares).<br>
 [DieBieMS Bootloader](https://github.com/DieBieEngineering/DieBieMS-Bootloader) can be flashed with the BMS Tool in the firmware tab.<br>
 [DieBieMS Configuration tool](https://github.com/DieBieEngineering/DieBieMS-Tool) the tool to configure the BMS and upload the bootloader / update the main firmware.<br>
