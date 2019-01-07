@@ -8,10 +8,11 @@ My personal transportation environment is becoming more and more electrical. All
 ![alt text](Binaries/Images/DieBieMSV0_4BOTTOM.png "DieBieMS V0.4 BottomView")
 
 ### Other parts of this project
-This is the hardware repository containing all hardware source files (designed in altium) and the project outputs to build a BMS PCB. There are three more repositories for this project:<br>
-[DieBieMS Firmware](https://github.com/DieBieEngineering/DieBieMS-Firmware) has to be flashed to the empty BMS STM32, the build .bin and hex file can be found in the BMS tool [resource folder](https://github.com/DieBieEngineering/DieBieMS-Tool/tree/master/res/firmwares).<br>
-[DieBieMS Bootloader](https://github.com/DieBieEngineering/DieBieMS-Bootloader) can be flashed with the BMS Tool in the firmware tab.<br>
-[DieBieMS Configuration tool](https://github.com/DieBieEngineering/DieBieMS-Tool) the tool to configure the BMS and upload the bootloader / update the main firmware.<br>
+This is the hardware repository containing all hardware source files (designed in altium) and the project outputs to build a BMS PCB. There are three more repositories for this project:\
+[DieBieMS Firmware](https://github.com/DieBieEngineering/DieBieMS-Firmware) has to be flashed to the empty BMS STM32, the build .bin and hex file can be found in the BMS tool [resource folder](https://github.com/DieBieEngineering/DieBieMS-Tool/tree/master/res/firmwares).\
+[DieBieMS Bootloader](https://github.com/DieBieEngineering/DieBieMS-Bootloader) can be flashed with the BMS Tool in the firmware tab.\
+[DieBieMS Configuration tool](https://github.com/DieBieEngineering/DieBieMS-Tool) the tool to configure the BMS and upload the bootloader / update the main firmware.\
+
 
 ### Latest hardware release (production files)
 Production data for most recent version can be found [here](Project%20Outputs%20for%20DB10005_DieBieMS). The initial project blog/log can be found [here](http://www.electric-skateboard.builders/t/diy-6s-to-12s-bms-with-can/2639). And the schematic in PDF [here](Project%20Outputs%20for%20DB10005_DieBieMS/DB10005_DieBieMS.PDF).
